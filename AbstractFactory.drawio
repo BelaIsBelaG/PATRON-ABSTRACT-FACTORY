@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.5">
   <diagram name="Página-1" id="_IHSHdLxnIGj9NiV80Rk">
-    <mxGraphModel dx="2311" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1413" dy="266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,16 +97,22 @@
           <mxGeometry y="26" width="160" height="64" as="geometry" />
         </mxCell>
         <mxCell id="7l5RVuHthn4o5pknxvZY-27" value="EnginolaToolkit" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="743" y="740" width="160" height="90" as="geometry" />
+          <mxGeometry x="743" y="740" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="7l5RVuHthn4o5pknxvZY-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="7l5RVuHthn4o5pknxvZY-27" vertex="1">
           <mxGeometry y="26" width="160" height="64" as="geometry" />
         </mxCell>
+        <mxCell id="3t7zGM351IAMfqM_Ua-U-5" value="CPU create CPU()&lt;div&gt;&amp;nbsp; &amp;nbsp;MMU create MMU()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7l5RVuHthn4o5pknxvZY-27">
+          <mxGeometry y="90" width="160" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="7l5RVuHthn4o5pknxvZY-29" value="EmberToolkit" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="740" width="160" height="90" as="geometry" />
+          <mxGeometry x="470" y="740" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="7l5RVuHthn4o5pknxvZY-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="7l5RVuHthn4o5pknxvZY-29" vertex="1">
           <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="3t7zGM351IAMfqM_Ua-U-6" value="CPU create CPU()&lt;div&gt;&amp;nbsp; &amp;nbsp;MMU create MMU()&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7l5RVuHthn4o5pknxvZY-29">
+          <mxGeometry y="90" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7l5RVuHthn4o5pknxvZY-31" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="7l5RVuHthn4o5pknxvZY-25" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -140,10 +146,13 @@
           <mxGeometry y="26" width="160" height="64" as="geometry" />
         </mxCell>
         <mxCell id="cFMtjQNbdO4FzaG1xSXE-1" value="Architecture" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="990" y="330" width="160" height="90" as="geometry" />
+          <mxGeometry x="990" y="330" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3t7zGM351IAMfqM_Ua-U-7" value="ENGINOLA&lt;div&gt;EMBER&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="cFMtjQNbdO4FzaG1xSXE-1">
+          <mxGeometry y="26" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cFMtjQNbdO4FzaG1xSXE-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="cFMtjQNbdO4FzaG1xSXE-1" vertex="1">
-          <mxGeometry y="26" width="160" height="64" as="geometry" />
+          <mxGeometry y="66" width="160" height="64" as="geometry" />
         </mxCell>
         <mxCell id="cFMtjQNbdO4FzaG1xSXE-3" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="7l5RVuHthn4o5pknxvZY-25" target="cFMtjQNbdO4FzaG1xSXE-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
